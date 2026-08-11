@@ -1,0 +1,201 @@
+{
+  "forestId": "vz-forest-virtualization",
+  "name": "Virtualization",
+  "description": "Enterprise hypervisor platforms: VMware vSphere, Nutanix AHV, Microsoft Hyper-V, and the KVM/Proxmox open-source stack.",
+  "repository": "Enterprise-Virtualization-Platforms",
+  "treeCount": 4,
+  "branchCount": 8,
+  "expectedLeafCount": 23,
+  "levelCounts": {
+    "Advanced": 14,
+    "Enterprise": 1,
+    "Expert": 7,
+    "Intermediate": 1
+  },
+  "leaves": [
+    {
+      "id": "vz-vmotion-drs",
+      "name": "vSphere: vMotion and DRS Resource Management",
+      "level": "Advanced",
+      "tree": "VMware & Nutanix",
+      "branch": "VMware vSphere",
+      "path": "docs/vz-tree-vmware-nutanix/vz-branch-vsphere/vz-vmotion-drs.md"
+    },
+    {
+      "id": "vz-ha-vsan",
+      "name": "vSphere: High Availability and vSAN Storage Policies",
+      "level": "Expert",
+      "tree": "VMware & Nutanix",
+      "branch": "VMware vSphere",
+      "path": "docs/vz-tree-vmware-nutanix/vz-branch-vsphere/vz-ha-vsan.md"
+    },
+    {
+      "id": "vz-vsan-policies-fault-domains-stretched",
+      "name": "VMware vSAN Storage Policies, Fault Domains and Stretched Clusters",
+      "level": "Advanced",
+      "tree": "VMware & Nutanix",
+      "branch": "VMware vSphere",
+      "path": "docs/vz-tree-vmware-nutanix/vz-branch-vsphere/vz-vsan-policies-fault-domains-stretched.md"
+    },
+    {
+      "id": "vz-nsx-overlay-dfw-edge",
+      "name": "VMware NSX Overlay Networking, Distributed Firewall and Edge Services",
+      "level": "Expert",
+      "tree": "VMware & Nutanix",
+      "branch": "VMware vSphere",
+      "path": "docs/vz-tree-vmware-nutanix/vz-branch-vsphere/vz-nsx-overlay-dfw-edge.md"
+    },
+    {
+      "id": "vz-nutanix-prism",
+      "name": "Nutanix: HCI Architecture, Prism and AHV VM Management",
+      "level": "Advanced",
+      "tree": "VMware & Nutanix",
+      "branch": "Nutanix AHV",
+      "path": "docs/vz-tree-vmware-nutanix/vz-branch-nutanix/vz-nutanix-prism.md"
+    },
+    {
+      "id": "vz-nutanix-dr",
+      "name": "Nutanix: Snapshots, Replication and DR with Protection Policies",
+      "level": "Enterprise",
+      "tree": "VMware & Nutanix",
+      "branch": "Nutanix AHV",
+      "path": "docs/vz-tree-vmware-nutanix/vz-branch-nutanix/vz-nutanix-dr.md"
+    },
+    {
+      "id": "vz-nutanix-prism-central-lifecycle",
+      "name": "Nutanix Prism Central: Multi-Cluster Operations and Lifecycle Management",
+      "level": "Advanced",
+      "tree": "VMware & Nutanix",
+      "branch": "Nutanix AHV",
+      "path": "docs/vz-tree-vmware-nutanix/vz-branch-nutanix/vz-nutanix-prism-central-lifecycle.md"
+    },
+    {
+      "id": "vz-nutanix-ahv-flow-dr",
+      "name": "Nutanix AHV Networking, Flow Microsegmentation and Disaster Recovery",
+      "level": "Advanced",
+      "tree": "VMware & Nutanix",
+      "branch": "Nutanix AHV",
+      "path": "docs/vz-tree-vmware-nutanix/vz-branch-nutanix/vz-nutanix-ahv-flow-dr.md"
+    },
+    {
+      "id": "vz-hyperv-cluster",
+      "name": "Hyper-V: Failover Clustering and Live Migration",
+      "level": "Advanced",
+      "tree": "Hyper-V & KVM",
+      "branch": "Microsoft Hyper-V",
+      "path": "docs/vz-tree-hyperv-kvm/vz-branch-hyperv/vz-hyperv-cluster.md"
+    },
+    {
+      "id": "vz-hyperv-network",
+      "name": "Hyper-V: Virtual Switches, VLANs and Converged Networking",
+      "level": "Advanced",
+      "tree": "Hyper-V & KVM",
+      "branch": "Microsoft Hyper-V",
+      "path": "docs/vz-tree-hyperv-kvm/vz-branch-hyperv/vz-hyperv-network.md"
+    },
+    {
+      "id": "vz-kvm-libvirt",
+      "name": "KVM: libvirt, QEMU and virsh Administration",
+      "level": "Advanced",
+      "tree": "Hyper-V & KVM",
+      "branch": "KVM & Proxmox",
+      "path": "docs/vz-tree-hyperv-kvm/vz-branch-kvm/vz-kvm-libvirt.md"
+    },
+    {
+      "id": "vz-proxmox-cluster",
+      "name": "Proxmox VE: Clustering, Ceph Integration and Backups",
+      "level": "Advanced",
+      "tree": "Hyper-V & KVM",
+      "branch": "KVM & Proxmox",
+      "path": "docs/vz-tree-hyperv-kvm/vz-branch-kvm/vz-proxmox-cluster.md"
+    },
+    {
+      "id": "vz-capacity-sizing",
+      "name": "VMware Virtual Estate Capacity Planning, Sizing and Management",
+      "level": "Expert",
+      "tree": "Design, Migration & Operations",
+      "branch": "Capacity, Storage & Network Design",
+      "path": "docs/vz-tree-designops/vz-branch-design/vz-capacity-sizing.md"
+    },
+    {
+      "id": "vz-network-design",
+      "name": "Virtual Networking Design: Distributed Switches and Storage Fabrics",
+      "level": "Expert",
+      "tree": "Design, Migration & Operations",
+      "branch": "Capacity, Storage & Network Design",
+      "path": "docs/vz-tree-designops/vz-branch-design/vz-network-design.md"
+    },
+    {
+      "id": "vz-v2v-migration",
+      "name": "Virtual Machine Workload Migration: V2V, P2V Rehost and Cross-Platform Conversion",
+      "level": "Advanced",
+      "tree": "Design, Migration & Operations",
+      "branch": "Migration & Business Continuity",
+      "path": "docs/vz-tree-designops/vz-branch-migration/vz-v2v-migration.md"
+    },
+    {
+      "id": "vz-backup-dr",
+      "name": "Backup, HA and Disaster Recovery for Virtual Estates",
+      "level": "Expert",
+      "tree": "Design, Migration & Operations",
+      "branch": "Migration & Business Continuity",
+      "path": "docs/vz-tree-designops/vz-branch-migration/vz-backup-dr.md"
+    },
+    {
+      "id": "vz-openstack-private-cloud",
+      "name": "Building an OpenStack Private Cloud: Control-Plane HA and Ceph Backends",
+      "level": "Advanced",
+      "tree": "Private Cloud Platforms",
+      "branch": "Designing and Building Private Cloud",
+      "path": "docs/vz-tree-private-cloud/vz-branch-private-cloud/vz-openstack-private-cloud.md"
+    },
+    {
+      "id": "vz-vcf-workload-domains",
+      "name": "VMware Cloud Foundation Design: Workload Domain Sizing and NSX Overlay MTU",
+      "level": "Advanced",
+      "tree": "Private Cloud Platforms",
+      "branch": "Designing and Building Private Cloud",
+      "path": "docs/vz-tree-private-cloud/vz-branch-private-cloud/vz-vcf-workload-domains.md"
+    },
+    {
+      "id": "vz-harvester-kubevirt",
+      "name": "Harvester and KubeVirt: Kubernetes-Native Virtualization with Longhorn Storage",
+      "level": "Intermediate",
+      "tree": "Private Cloud Platforms",
+      "branch": "Designing and Building Private Cloud",
+      "path": "docs/vz-tree-private-cloud/vz-branch-private-cloud/vz-harvester-kubevirt.md"
+    },
+    {
+      "id": "vz-proxmox-cluster-ceph-backup",
+      "name": "Proxmox VE Cluster Networking, Ceph Storage and Backup Server",
+      "level": "Advanced",
+      "tree": "Private Cloud Platforms",
+      "branch": "Designing and Building Private Cloud",
+      "path": "docs/vz-tree-private-cloud/vz-branch-private-cloud/vz-proxmox-cluster-ceph-backup.md"
+    },
+    {
+      "id": "vz-private-cloud-selection",
+      "name": "Private Cloud Platform Selection and Exit Cost Analysis",
+      "level": "Advanced",
+      "tree": "Private Cloud Platforms",
+      "branch": "Operating and Selecting Private Cloud",
+      "path": "docs/vz-tree-private-cloud/vz-branch-private-cloud-ops/vz-private-cloud-selection.md"
+    },
+    {
+      "id": "vz-vcf-workload-domains-sddc-manager",
+      "name": "VMware Cloud Foundation Lifecycle: SDDC Manager, the Bill of Materials and Upgrade Order",
+      "level": "Expert",
+      "tree": "Private Cloud Platforms",
+      "branch": "Operating and Selecting Private Cloud",
+      "path": "docs/vz-tree-private-cloud/vz-branch-private-cloud-ops/vz-vcf-workload-domains-sddc-manager.md"
+    },
+    {
+      "id": "vz-openstack-core-services",
+      "name": "Diagnosing OpenStack: the Message Bus, Placement and NoValidHost Failures",
+      "level": "Expert",
+      "tree": "Private Cloud Platforms",
+      "branch": "Operating and Selecting Private Cloud",
+      "path": "docs/vz-tree-private-cloud/vz-branch-private-cloud-ops/vz-openstack-core-services.md"
+    }
+  ]
+}
